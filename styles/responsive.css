@@ -1,0 +1,14 @@
+@media screen and (max-width:576px) {
+    nav, nav ul{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .banner .banner-content{
+        text-align: center;
+    }
+
+    /* media end */
+}
